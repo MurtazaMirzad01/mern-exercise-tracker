@@ -1,0 +1,12 @@
+import { render } from "@testing-library/react";
+import react, {Component} from "react";
+
+export default class ExercisesList extends Component{
+    render(){
+        return(
+            <div> 
+                <p>You are on the Exercises list Component!</p>
+            </div>
+        )
+    }
+}
