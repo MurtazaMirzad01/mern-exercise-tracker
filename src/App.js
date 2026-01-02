@@ -11,6 +11,7 @@ import CreateUsers from "./components/create-user.component";
 function App() {
   return (
     <BrowserRouter>
+      <div className="container">
       <Navbar />
       <br />
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/create" element={<CreateExercises />} />
         <Route path="/user" element={<CreateUsers />} />
       </Routes>
+      </div>
     </BrowserRouter>
   );
 }
